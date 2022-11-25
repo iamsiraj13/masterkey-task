@@ -3,7 +3,7 @@ import { BiMap } from "react-icons/bi";
 import { CiSearch } from "react-icons/ci";
 const HeaderSearch = () => {
   return (
-    <div className="container">
+    <div className="container d-none d-md-block">
       <div className="header_search smargin d-flex align-items-center justify-content-between">
         <div className="location_btn">
           <BiMap />

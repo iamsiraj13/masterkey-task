@@ -9,9 +9,9 @@ const Product = ({ product }) => {
 
         <div className="product_body">
           <h3 className="product_title">{product.name}</h3>
-          <div className="product_info">
-            <span className="price">$1165</span>
-            <span className="discount">-14%</span>
+          <div className="product_info d-flex justify-content-between">
+            <span className="price">${product.price}</span>
+            <span className="discount">-{product.discount}%</span>
           </div>
         </div>
       </div>

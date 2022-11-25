@@ -22,5 +22,11 @@ a{
 }
 .smargin{
   margin-left: 70px;
-    margin-right: 70px;
+  margin-right: 70px;
+}
+@media screen and (max-width: 576px) {
+  .smargin{
+    margin-left:auto;
+    margin-right:auto;
+  }
 }
